@@ -21,6 +21,7 @@
 		03D62F9C181AD6A100989346 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D62F7E181AD6A000989346 /* UIKit.framework */; };
 		03D62FA4181AD6A100989346 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D62FA2181AD6A100989346 /* InfoPlist.strings */; };
 		03D62FA6181AD6A100989346 /* JoggrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D62FA5181AD6A100989346 /* JoggrTests.m */; };
+		03D62FB1181ADB7800989346 /* RunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D62FB0181ADB7800989346 /* RunViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		03D62FA1181AD6A100989346 /* JoggrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JoggrTests-Info.plist"; sourceTree = "<group>"; };
 		03D62FA3181AD6A100989346 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03D62FA5181AD6A100989346 /* JoggrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoggrTests.m; sourceTree = "<group>"; };
+		03D62FAF181ADB7800989346 /* RunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunViewController.h; sourceTree = "<group>"; };
+		03D62FB0181ADB7800989346 /* RunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				03D62F89181AD6A000989346 /* AppDelegate.h */,
 				03D62F8A181AD6A000989346 /* AppDelegate.m */,
 				03D62F8C181AD6A100989346 /* Main.storyboard */,
+				03D62FAF181ADB7800989346 /* RunViewController.h */,
+				03D62FB0181ADB7800989346 /* RunViewController.m */,
 				03D62F8F181AD6A100989346 /* ViewController.h */,
 				03D62F90181AD6A100989346 /* ViewController.m */,
 				03D62F92181AD6A100989346 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			files = (
 				03D62F91181AD6A100989346 /* ViewController.m in Sources */,
 				03D62F8B181AD6A000989346 /* AppDelegate.m in Sources */,
+				03D62FB1181ADB7800989346 /* RunViewController.m in Sources */,
 				03D62F87181AD6A000989346 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
